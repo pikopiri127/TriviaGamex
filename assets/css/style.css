@@ -1,0 +1,19 @@
+html {
+    /* Positioning */
+    position: relative; 
+    /* Box-model */
+    min-height: 100%;
+}
+
+body {
+    text-align:center
+}
+
+p {
+    font-size: 25px
+}
+
+#timer{
+background-color: yellow
+
+}

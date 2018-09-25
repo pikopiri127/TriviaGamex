@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Japan Quiz</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <!-- custom stylesheet should be placed after all other stylesheets-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <h1>True or False? Japanese Etiquette Quiz!</h1>
+    </div>
+    <div id="display">
+        <p>Time Remaining: <span id="timer">00:00</span> seconds.<p>
+    </div>
+    <div class="container">
+        <button type="button" id="start-button">START</button>
+    </div>
+
+
+<!--
+        <p>Q1: You bow deeply when you apologize.</p>
+        <form name="form">
+            <label class="radio-inline">
+                <input type="radio" name="answer" value="true">True
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="answer" value="false">False
+            </label>
+        </form>
+        <input type="button" value="ボタン" onclick="clickBtn()" />
+
+        <script>
+            function clickBtn() {
+                let selectedAnswer = "";
+                const answer1 = document.getElementsByName("answer1");
+
+                for (let i = 0; i < answer1.length; i++) {
+                    if (answer1[i].checked) { //(answer1[i].checked === true)と同じ
+                        selectedAnswer = answer1[i].value;
+                        break;
+                    }
+                }
+                console.log(selectedAnswer);
+            }
+        </script>
+-->
+
+    <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <!--need to put the jquery scripts first, or "Uncaught ReferenceError: $ is not defined" -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script> 
+
+    </body>
+
+</html>
